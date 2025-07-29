@@ -111,7 +111,10 @@ EMAIL_PASS=your_email_password_or_app_password
 * Replace placeholder values in `.env` with your actual credentials.
 * Architecture diagram must be located at:
   `client/src/assets/architecture.png`
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 3115be6 (Added screenshots to assets folder)
