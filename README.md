@@ -1,1 +1,40 @@
-# authentication
+# 🔐 Full-Stack Authentication App with AI Chatbot Integration
+
+A full-stack web application that provides **secure user authentication** and a responsive **AI-powered chatbot** interface. Built using **React**, **Node.js**, **Express**, and **MongoDB** for user login and management. It integrates **Cohere API** for intelligent chatbot replies without storing any chat data.
+
+---
+
+## ✨ Features
+
+- 🔐 Secure signup & login with JWT and bcrypt
+- 🧠 Live AI chatbot using Cohere NLP API
+- 💡 Stateless chat — messages aren't stored
+- ⚛️ Responsive React frontend with Tailwind CSS
+- ⚙️ Express backend for auth and API proxying
+- 🛡️ Environment-based secret management
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB Atlas (for authentication only)
+- **Authentication:** JWT, bcrypt
+- **AI Integration:** Cohere API
+- **Email Service:** Nodemailer (SMTP for password reset)
+
+---
+
+## 📐 Architecture Diagram
+
+![Architecture Diagram](client/src/assets/architecture.png)
+
+---
+
+## 🚀 Getting Started
+
+### 1. 📦 Clone the Repository
+
+```bash
+git clone https://github.com/SSanthoshKumar26/authentication.git
